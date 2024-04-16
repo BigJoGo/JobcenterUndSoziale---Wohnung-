@@ -60,7 +60,7 @@ func main() {
 
 	// Проверка соответствия
 	totalRent := miete + betriebskosten + heizUNDwarmwasserkosten + wasserUNDentwasserungskosten
-	if personen >= 1 && personen <= 4 && miete <= maxRent[personen] && zimmer <= maxRooms[personen] && totalRent <= maxRent[personen]+maxAdditional && kaution <= maxTotalDeposit*miete {
+	if personen >= 1 && personen <= 8 && miete <= maxRent[personen] && zimmer <= maxRooms[personen] && totalRent <= maxRent[personen]+maxAdditional && kaution <= maxTotalDeposit*miete {
 		fmt.Println("Квартира соответствует лимитам.")
 	} else {
 		fmt.Println("Квартира не соответствует лимитам.")
