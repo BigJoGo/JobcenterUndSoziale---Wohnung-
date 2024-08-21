@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+// dsdasds
 // Определение лимитов в зависимости от количества проживающих
 var maxRooms = map[int]int{
 	1: 1,
